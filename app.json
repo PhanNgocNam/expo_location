@@ -1,5 +1,14 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "maplibre",
+          "RNMapboxMapsDownloadToken": "sk.ey...qg"
+        }
+      ]
+    ],
     "name": "expo-locatioin",
     "slug": "expo-locatioin",
     "version": "1.0.0",
@@ -21,7 +30,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.expolocatioin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
